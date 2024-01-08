@@ -1,0 +1,399 @@
+.produkte__h1 {
+    margin-top: 8rem;
+    width: 100%;
+    padding-left: 4.5rem;
+}
+.logo__spacing {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo__spacing img {
+    width: 7rem;
+    height: 7rem;
+}
+
+/* Desktop */
+.produkte {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produkte__container {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.produkte__containerEins {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.produkte__containerEins img {
+    width: 27rem;
+    height: 27rem;
+}
+.produkte__containerZwei {
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.produkte__containerZwei h2 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .produkte__containerZwei h3 {
+     width: 100%;
+     display: flex;
+     justify-content: end;
+     padding-top: 4rem;
+     padding-bottom: 1rem;
+  }
+
+
+
+
+
+
+
+/* iPad */
+@media screen and (max-width: 1250px) {
+    .produkte {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .produkte__container {
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .produkte__containerEins {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .produkte__containerEins img {
+        width: 27rem;
+        height: 27rem;
+    }
+    .produkte__containerZwei {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .produkte__containerZwei h2 {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-top: 0;
+        padding-bottom: 1rem;
+     }
+     .produkte__containerZwei h3 {
+         width: 100%;
+         display: flex;
+         justify-content: end;
+         padding-top: 4rem;
+         padding-bottom: 1rem;
+      }
+}
+
+
+
+
+
+
+
+/* phone */
+@media screen and (max-width: 1000px) {
+    .produkte__h1 {
+        padding-left: 0;
+    }
+    .produkte__h1 h1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .produkte {
+        width: 100%;
+        height: 60rem;
+        display: flex;
+        justify-content: center;
+    }
+    .produkte__container {
+        width: 80rem;
+        height: 80rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20rem ;
+        margin-top: 14rem ;
+    }
+    .produkte__containerEins {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .produkte__containerEins img {
+        width: 25rem;
+        height: 25rem;     
+    }
+    .produkte__containerZwei {
+        width: 25rem;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .produkte__containerZwei h2 {
+       width: 100%;
+       display: flex;
+       justify-content: start;
+       padding-top: 4rem;
+       padding-bottom: 1rem;
+    }
+    .produkte__containerZwei h3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     }
+     .produkte__containerZwei p {
+        font-size: 1rem;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop/switch */
+.produkte__switch {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produkte__container__switch {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.produkte__containerEins__switch {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.produkte__containerEins__switch img {
+    width: 27rem;
+    height: 27rem;
+}
+.produkte__containerZwei__switch {
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.produkte__containerZwei__switch h2 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .produkte__containerZwei__switch h3 {
+     width: 100%;
+     display: flex;
+     justify-content: end;
+     padding-top: 4rem;
+     padding-bottom: 1rem;
+  }
+
+
+
+/* iPad/switch */
+@media screen and (max-width: 1250px) {
+    .produkte__switch {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .produkte__container__switch {
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .produkte__containerEins__switch {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .produkte__containerEins__switch img {
+        width: 27rem;
+        height: 27rem;
+    }
+    .produkte__containerZwei__switch {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .produkte__containerZwei__switch h2 {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-top: 0;
+        padding-bottom: 1rem;
+     }
+     .produkte__containerZwei__switch h3 {
+         width: 100%;
+         display: flex;
+         justify-content: start;
+         padding-top: 4rem;
+         padding-bottom: 1rem;
+      }
+}
+
+
+
+
+
+
+
+/* phone/switch */
+@media screen and (max-width: 1000px) {
+    .produkte__switch {
+        width: 100%;
+        height: 64rem;
+        display: flex;
+        justify-content: center;        
+    }
+    .produkte__container__switch {
+        padding-top: 5rem;
+        width: 80rem;
+        height: 70rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20rem ;
+        margin-top: 20rem ;
+    }
+    .produkte__containerEins__switch {
+        width: 25rem;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 6rem;
+    }
+    .produkte__containerEins__switch img {
+        width: 25rem;
+        height: 25rem;  
+    }
+    .produkte__containerZwei__switch {
+        width: 25rem;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .produkte__containerZwei__switch h2 {
+       width: 100%;
+       display: flex;
+       justify-content: start;
+       padding-top: 4rem;
+       padding-bottom: 1rem;
+    }
+    .produkte__containerZwei__switch h3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     }
+     .produkte__containerZwei__switch p {
+        font-size: 1rem;
+     }
+     .logo__spacing {
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .logo__spacing img {
+        width: 7rem;
+        height: 7rem;
+    }
+}
